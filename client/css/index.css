@@ -1,0 +1,158 @@
+body{
+    background-color: honeydew;
+}
+.active{
+    color: #648BF1;
+}
+.logo{
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+    padding: 3px 5px;
+}
+ul li a{
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #000;
+}
+.lists{
+    width: 250px;
+}
+.content{
+    width: 100%;
+}
+.body{
+    display: flex;
+
+}
+.flex_cardItems{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.flex_cardItems a{
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    text-decoration: none;
+}
+.flex_cardItems a .icons{
+    font-size: 50px;
+}
+.flex_cardItems .card{
+    width: 230px;
+    height: 100px;
+}
+.flex_cardItems .flex_content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.current_requests{
+    margin: 20px;
+}
+.current_requests .texts{
+    font-size: 23px;
+}
+.content{
+    border-left: 1px solid gainsboro;
+    height: calc( 100vh - 50px);
+}
+.title{
+    margin: 20px;
+}
+.forms{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.forms .texts{
+    background-color: #648BF1;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.form-group{
+    margin-top: 10px;
+}
+.forms form{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.company_details{
+    width: 50%;
+    margin: auto;
+    border: 1px solid gainsboro;
+    margin-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+textarea{
+    resize: none !important;
+}
+.company_details form{
+    margin: 20px;
+}
+.company_details .texts{
+    color: #FFFFFF;
+    background-color: #648BF1;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.tables{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.content{
+    height: 500px;
+    overflow-y: auto;
+}
+
+.allclicks{
+    width: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+.hiden{
+    display: none;
+}
+.travelhist{
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    color: gray;
+    font-family: monospace;
+    font-size: 13px;
+}
+.travelhist span{
+    padding-right: 20px;
+    padding-left: 30px;
+    /* font-style: italic; */
+    color: rgb(87, 86, 86);
+}
+.content{
+    padding-top: 20px;
+}
+.toogle{
+    display: flex;
+    justify-content: space-between;
+    color:#648BF1 !important;
+}

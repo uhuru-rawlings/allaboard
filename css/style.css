@@ -1,0 +1,244 @@
+body{
+    background-color: honeydew;
+    overflow: hidden;
+}
+.body{
+    display: flex;
+}.menu .logo{
+    font-size: 23px;
+    font-weight: normal;
+}
+.menu{
+    width: 250px;
+    padding: 15px;
+    position: relative;
+    height: 100vh;
+}
+.menu_lists ul li{
+    list-style: none;
+    padding: 10px;
+}
+.menu_lists ul li a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.content{
+    width: 100%;
+}
+.images{
+    border: 10px solid white;
+    border-radius: 20px;
+    width: 320px;
+}
+.images img{
+    border-radius: 20px;
+}
+#map{
+    height: 350px;
+    width: 100%;
+}
+.login{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.login img{
+    border-radius: 50%;
+}
+.login p{
+    padding-top: 15px;
+}
+.active{
+    color: blue !important;
+}
+.services_flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.services_flex .flex_items{
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gainsboro;
+    padding:19px 5px 19px 5px;
+}
+.services_flex .flex_items .icon{
+    font-size: 50px;
+}
+.services_flex .flex_items .text{
+    font-size: 21px;
+}
+.services_flex a{
+    color: #000;
+    text-decoration: none;
+}
+.navbars{
+    border-bottom: 1px solid;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.flex_settings{
+    display: flex;
+     justify-content: space-between;
+     margin: 20px 20px 0px 20px;
+}
+.menuitems{
+    cursor: pointer;
+}
+#resetpassword,#changeusername,#changephoto{
+    display: none;
+}
+.header{
+    text-align: center;
+    padding: 10px;
+    color: gray;
+    font-style: italic;
+}
+.search{
+    margin: 20px;
+}
+.search h3{
+    text-align: center;
+}
+.search form{
+    width: 40%;
+    margin: auto;
+}
+.search form .form-group{
+    margin-top: 10px;
+}
+#resetpassword form,#changeusername form,#changephoto form{
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+#resetpassword form .form-group , #changeusername form .form-group, #changephoto form .form-group{
+    margin-top: 10px;
+}
+.button_logout{
+    width: 100%;
+    height: calc(100vh - 160px);
+    text-align: center;
+    padding-top: 10%;
+}
+.button_logout button{
+    margin: auto;
+}
+.tables{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.forms_result{
+    width: 80%;
+    margin: auto;
+}
+.canceltravel{
+    display: none;
+}
+#flex_delete{
+    display: flex;
+    column-gap: 20px;
+    margin: 20px;
+}
+.forms_data{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.texts{
+    padding: 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+.content{
+    height: 500px;
+    overflow-y: auto;
+}
+.travel_dates{
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    /* overflow:hidden; */
+    border: 1px solid gainsboro;
+    /* margin-top: 10%; */
+}
+.travel_dates .form-group{
+   margin: 15px;
+}
+.close{
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10;
+    right: -20;
+}
+.travel_dates{
+    position: relative;
+}
+.close i{
+    background-color: white;
+    border-radius: 50%;
+}
+#absolute_form{
+    position: absolute;
+    top: 30px;
+    padding: 40px;
+    height: 60vh;
+    width: 80vw;
+    background-color: white;
+    display: none;
+}
+#travelsids{
+    display: none;
+}
+.toogle{
+    display: flex;
+    justify-content: space-between;
+}
+.allclicks{
+    width: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+.hiden{
+    display: none;
+}
+.travelhist{
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    color: gray;
+}
+.travelhist span{
+    padding-right: 20px;
+}
+.content{
+    padding-top: 20px;
+}
+.fullservice{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+.aboutservices{
+    text-align: center;
+    font-size: 23px;
+    padding: 15px;
+}

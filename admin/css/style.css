@@ -1,0 +1,35 @@
+body{
+    background-color: #F1F3F4;
+}
+.signup{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.form-group{
+    margin-top: 20px;
+}
+.logo{
+    font-size: 40px;
+}
+#signin{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.autolog{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: gray;
+    font-weight: bold;
+}
+.autolog a{
+    color: gray;
+    text-decoration: none;
+}
+.autolog a:hover{
+    text-decoration: underline;
+}

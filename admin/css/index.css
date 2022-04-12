@@ -1,0 +1,65 @@
+body{
+    background-color: #F1F3F4;
+    overflow: hidden;
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.body{
+    display: flex;
+}
+.menu{
+    width: 200px;
+}
+.content{
+   width: 100%;
+}
+ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+.dashboard ul li a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 10px 30px;
+}
+.top-menu .card{
+    width: 200px;
+    display: flex;
+    height: 100px;
+    box-shadow: 3px 3px 5px gainsboro;
+}
+.card .icons{
+    background-color: #F1F3F4;
+    height: 98px;
+    width: 90px;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+.card .icons i{
+    padding-top: 20px;
+}
+.card .nums{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.top-menu .card .flex_card{
+    display: flex;
+}
+.flex_lower{
+    margin: 20px;
+}
+.tables{
+    width: 90%;
+    margin: auto;
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: honeydew;
+}
+.form-group{
+    margin: 20px;
+    margin-top: 10px;
+}
+form{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid rgb(241, 240, 240);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gainsboro;
+}
+.errors{
+    display: flex;
+    justify-content: space-between;
+}
+#error1,#error2,#error3,#error4{
+    font-size: 14px;
+    display: none;
+}
+.dangers{
+    padding: 10px;
+    background-color: red;
+    color: #FFFFFF;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+.success{
+    padding: 10px;
+    background-color: green;
+    color: #FFFFFF;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+.header{
+    color: #FFFFFF;
+    background-color: #378AF0;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}

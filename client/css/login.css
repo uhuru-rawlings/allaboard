@@ -1,0 +1,27 @@
+.card{
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    overflow: hidden;
+}
+.form-group{
+    margin-top: 10px;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: #378AF0;
+}
+
+.forms{
+    margin: 10px;
+}
+#error{
+    display: none;
+}
+#flex_input{
+    display: flex !important;
+    justify-content: space-between !important;
+}
